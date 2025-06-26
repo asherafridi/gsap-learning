@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #111;
+    margin: 0;
+    padding: 0;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background: #eee;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    width: 100%;
+    height: 100%;
+    background: #111;
+    border-radius: 10px;
+}
